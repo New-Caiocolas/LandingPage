@@ -231,6 +231,12 @@ footer > p {
 }
 
 @media only screen and (max-width: 970px) {
+
+    main > .inicio {
+        text-align: center;
+        height: 70vh;
+    }
+
     .lado1 > h1 {
         font-size: 30px;
         margin-bottom: 12px;
@@ -267,10 +273,16 @@ footer > p {
     }
 
     main > .sobre {
-        height: 50vh;
+        height: 40vh;
         padding-top: 20px;
         background-color: #302E4D;
         box-shadow: 1px 2px 17px 1px rgba(0, 0, 0, 0.466);
+    }
+
+    main > .contato {
+        display: flex;
+        height: 60vh;
+        margin-top: 20px;
     }
     
     .text {
@@ -319,8 +331,8 @@ footer > p {
     main > section > .img > img {
         border: none;
         border-radius: 2px;
-        margin: 40px 12px; 
-        width: 30%;
+        margin: 40px 4px; 
+        width: 35%;
         height: auto;
 
     
