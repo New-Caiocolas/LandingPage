@@ -202,7 +202,6 @@ main > .contato {
     cursor: pointer;
 }
 
-
 footer {
     display: flex;
     justify-content: center;
@@ -324,9 +323,12 @@ footer > p {
         letter-spacing: 1px;
         padding: 10px 1.5em;
     }
-    
 
-    
+    .text > p {
+        color: #f7f7ff;
+        font-size: 20px;
+        padding: 0px 44px;
+    }
     
     main > section > .img > img {
         border: none;
@@ -337,5 +339,5 @@ footer > p {
 
     
     }
-
+    
 }
